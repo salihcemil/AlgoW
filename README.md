@@ -6,11 +6,9 @@
 
 ![overview][overview]
 
-This is an API that generates accounts and sends transactions on Algorand Blockchain.
+This is an API that **generates accounts** and **sends transactions on Algorand Blockchain**.
 
 It can be used to generate an Algo Address and transactions locally and send these transactions to Algorand Network.
-
-Also checking the balance of a given Algo Address and re-generating an Algo Address from a given Mnemonic or Secret Key is possible.
 
 Since the project focused on generating addresses and transactions locally and broadcasting them, there is no user interface layer implementation.
 
@@ -94,7 +92,7 @@ Now, test NodeJS by printing its version using the following command in Command 
   npm -v
   ```
 
-### Clone
+#### Clone
 Clone the repository, open a terminal and route to the project folder, and run this command in the project folder in order to install.
 
   ```sh
@@ -103,9 +101,9 @@ Clone the repository, open a terminal and route to the project folder, and run t
 
 ### Purestake API Access Key
 
-There are two options to interact with the Algorand Network; to get a node, or use a proxy node. In this step, we use Purestack API as a proxy to broadcast the locally created transactions to the Algorand Network.
+In this step, we use Purestack API as a proxy to broadcast the locally created transactions to the Algorand Network.
 
-Purestake Algorand access credentials can be found on https://developer.purestake.io/
+Purestake Algorand access credentials can be obtain on https://developer.purestake.io/
 
 ### Postman
 
@@ -175,7 +173,7 @@ The project runs as follows step-by-step:
   
   Also in the project, Purestake API is used as a gateway to the Algorand TestNet. There are request count and usage limitations on purestake itself. Another method is to use our own node to broadcast transactions and it needs more technical requirements and development.
   
-  There are 2 more methods implemented but not mentioned in this document; ``regenerateAlgoAddressWithSK`` which regenerates an Algorand Account with a given Secret Key and ``regenerateAlgoAddressWithMnemonic`` which regenerates the account with a given Mnemonic. Overall with these features, this application can be assumed as an Algorand Wallet.
+  There are 2 more methods implemented but not mentioned in this document; ``regenerateAlgoAddressWithSK`` which regenerates an Algorand Account with a given Secret Key and ``regenerateAlgoAddressWithMnemonic`` which regenerates the account with a given Mnemonic. **Overall with these features, this application can be assumed as an Algorand Wallet**.
   
   Another important note is on account generation. Public blockchain transactions like Algorand are very transparent. This makes accounts vulnerable to hacking. Algorand uses random numbers to generate accounts with respect to the cryptography algorithm it uses. Programmed libraries are usually not good at generating real random numbers. So it's always better to generate accounts with real random numbers with special random number generator machines or natural actions such as user's mouse moves.
 
