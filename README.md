@@ -101,7 +101,7 @@ Clone the repository, open a terminal and route to the project folder, and run t
 
 ### Purestake API Access Key
 
-In this step, we use Purestack API as a proxy to broadcast the locally created transactions to the Algorand Network.
+In this step, we use Purestake API as a proxy to broadcast the locally created transactions to the Algorand Network.
 
 Purestake Algorand access credentials can be obtain on https://developer.purestake.io/
 
