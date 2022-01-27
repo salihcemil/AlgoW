@@ -21,7 +21,7 @@ Here is a short description of API methods:
 (AlgoClient's parameters are the base server URL of PureStake API, API key which was taken from PureStake website, and the port number.) After getting the current info from the network, the transaction object is created and signed with the sender's Secret Key locally. Then this transaction is broadcast to the network again via AlgoClient.
 * 5- getBalance (GET): This method directly reaches the network via AlgoClient and gets the balance of the given address.
 
-
+_Please notice that in this application Algorand Testnet is used which is very same with the Algorand Mainnet._
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
