@@ -6,7 +6,7 @@
 
 ![overview][overview]
 
-This is an API that works as a basic wallet application works on Algorand Blockchain.
+This is an API that generates accounts and sends transactions on Algorand Blockchain.
 
 It can be used to generate an Algo Address and transactions locally and send these transactions to Algorand Network.
 
