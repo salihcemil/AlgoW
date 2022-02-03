@@ -1,0 +1,25 @@
+{
+  "name": "algow",
+  "version": "1.0.0",
+  "description": "sample algorand wallet",
+  "main": "app.js",
+  "dependencies": {
+    "algosdk": "^1.13.1",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salihcemil/AlgoW.git"
+  },
+  "author": "salihcemil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salihcemil/AlgoW/issues"
+  },
+  "homepage": "https://github.com/salihcemil/AlgoW#readme"
+}
